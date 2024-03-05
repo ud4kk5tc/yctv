@@ -1,0 +1,428 @@
+{
+  "spider": "https://files.zohopublic.com.cn/public/workdrive-public/download/gd5ic01b6d4922692401eac6018178d033d06",
+  
+  "sites": [
+      
+      
+      
+      {
+            "key": "豆豆",
+            "name": "首页·优创",
+            "type": 3,
+            "api": "csp_DouDou",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0
+        },
+         
+     {
+      "key": "Xinsj",
+      "name": "优创·XINSJ",
+      "type": 3,
+      "api": "csp_Xinsj",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "./gd5ic01b6d4922692401eac6018178d033d06",
+      "ext": "https://www.hdmyy.com/"
+    },
+{
+      "key": "Czsapp",
+      "name": "优创·CZ",
+      "type": 3,
+      "api": "csp_Czsapp",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "./gd5ic01b6d4922692401eac6018178d033d06",
+      "ext": "https://www.czzy88.com/"
+    },
+        
+        {
+      "key": "快看",
+      "name": "超清·优创·快看",
+      "type": 3,
+      "api": "csp_Kkys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+     {
+      "key": "新6V",
+      "name": "超清·磁力6V",
+      "type": 3,
+      "api": "csp_SixV",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": "http://www.xb6v.com/"
+    },
+    
+        {
+      "key": "南瓜",
+      "name": "超清·优创NG-APP",
+      "type": 3,
+      "api": "csp_NanGua",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    }, 
+   
+      {
+
+      "key": "YYYS", //这里对应站点名称
+
+      "name": "超清·优创自建", //这里对应站点名称
+
+      "type": 3, //这里对应爬虫类型，XML=0、JSON=1、自定义爬虫=3
+
+      "api": "csp_AppYsV2",  //对应API类型
+
+      "searchable": 1, //是否搜索 关闭=0
+
+      "quickSearch": 1, //是否快速搜索，也就是详情页的快速搜索 关闭=0
+
+      "filterable": 1,  //是否参与筛选 关闭=0
+
+      "ext": "https://yyys.ud4kk5tc.com/api.php/app/" //扩展信息
+
+    },
+      {
+            "key": "索尼资源",
+            "name": "高清·SN搜索",
+            "type": 1,
+            "api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/",
+            "categories": [
+                "动作片",
+                "喜剧片",
+                "爱情片",
+                "科幻片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "国产剧",
+                "欧美剧",
+                "韩剧",
+                "日剧",
+                "港剧",
+                "台剧",
+                "泰剧",
+                "海外剧",
+                "纪录片",
+                "大陆综艺",
+                "日韩综艺",
+                "港台综艺",
+                "欧美综艺",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "动画片",
+                "港台动漫",
+                "海外动漫",
+                "演唱会",
+                "体育赛事",
+                "篮球",
+                "足球",
+                "预告片",
+                "斯诺克",
+                "影视解说"
+            ],
+            "searchable": 1,
+            "quickSearch": 1
+        },
+        
+        {
+            "key": "drpy_js_磁力熊[磁]",
+            "name": "超清·磁力X",
+            "type": 3,
+            "api": "./lib/drpy3.min.js",
+            "ext": "./js/磁力熊[磁].js"
+        },
+        {
+      "key": "ikun",
+      "name": "超清首选·篮球BOY",
+      "type": 1,
+      "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2
+    },
+      
+    {
+      "key": "leshi",
+      "name": "高清·LeS搜索",
+      "type": 0,
+      "api": "https://leshizyapi.com/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2
+    },
+     { "key": "drpy_js_量子资源", "name": "📽优创LZ-搜索", "type": 3, "api": "https://ys.ud4kk5tc.com/test/JS/lib/drpy2.min.js", "ext": "https://ys.ud4kk5tc.com/test/JS/js/量子资源.js" },
+     {
+            "key": "贱贱",
+            "name": "超清·磁力JP",
+            "type": 3,
+            "searchable": 1,
+            "quickSearch": 1,
+            "changeable": 1,
+            "playerType": "1",
+            "api": "./api/drpy2.min.js",
+            "ext": "./js/jp.js"
+        }
+  ],
+  "lives": [
+    {
+      "name": "太阳",
+      "type": 0,
+      "url": "./lib/1.txt"
+    }
+    
+  ],
+  "parses": [
+    {
+      "name": "乐视解析",
+      "type": 0,
+      "url": "https://leshivideoplayurl.com/?url="
+    },
+    {
+      "name": "篮球boy",
+      "type": 0,
+      "url": "https://www.ikdmjx.com/?url="
+    }
+  ],
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "wasu"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "max-buffer-size",
+          "value": "5242880"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    "s23.cnzz.com",
+    "z3.cnzz.com",
+    "c.cnzz.com",
+    "stj.v1vo.top",
+    "z12.cnzz.com",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "s9.cnzz.com",
+    "z6.cnzz.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "z5.cnzz.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "z1.cnzz.com",
+    "s13.cnzz.com",
+    "xg.huataisangao.cn",
+    "z7.cnzz.com",
+    "xg.huataisangao.cn",
+    "z2.cnzz.com",
+    "s96.cnzz.com",
+    "q11.cnzz.com",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "s19.cnzz.com",
+    "z8.cnzz.com",
+    "s4.cnzz.com",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "cms.qdwght.com"
+  ]
+}
