@@ -28,6 +28,13 @@
       "jar": "./gd5ic01b6d4922692401eac6018178d033d06",
       "ext": "https://www.hdmyy.com/"
     },
+
+{"key": "csp_SeedHub","name": "超清4K·优创·磁力SH","type": 3,"api": "csp_SeedHub","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 1,"jar":"./XYQ.jar"}, 
+        
+        {"key": "Lib","name": "超清优创·LibVio","type": 3,"api": "csp_Libvio","searchable": 1,"quickSearch": 1,"changeable": 1,"ext": "https://www.libvio.pw/","jar":"./0306.jar"},
+
+
+    
 {
       "key": "Czsapp",
       "name": "优创·CZ",
