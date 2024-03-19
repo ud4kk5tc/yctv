@@ -15,8 +15,8 @@
             "filterable": 0
         },
         
-        
-        
+      {"key":"酷吧电影","name":"🧲优创|酷吧","type":3,"jar":"./jar.php?id=ou;md5;10e0197bf1b477a4eefa78b71aef687e","api":"csp_KubaCL","searchable":1,"quickSearch":1,"filterable":1},  
+      {"key":"美剧迷","name":"🧲优创┃美剧","type":3,"jar":"./jar.php?id=ou;md5;10e0197bf1b477a4eefa78b71aef687e","api":"csp_MeijuMi","searchable":1,"quickSearch":1,"filterable":1},  
      {
       "key": "Xinsj",
       "name": "优创·XINSJ",
