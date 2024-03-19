@@ -184,8 +184,7 @@
         }
   ],
  "lives":[{"name":"live","type":0,"url":"http://w.nxog.top/m/tv/?ou=%E5%85%AC%E4%BC%97%E5%8F%B7%E6%AC%A7%E6%AD%8Capp","playerType":1,"ua": "okhttp/3.12.13","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
-    
-  ],
+  
   "parses": [
     {
       "name": "乐视解析",
